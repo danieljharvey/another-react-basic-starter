@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(50, 50, 50);
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+button {
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+button.on {
+  color: green;
+}
+
+button.off {
+  color: red;
+}
+
+.header {
+  flex: 1;
+  flex-direction: column;
+  background-color: rgb(80,80,80);
+  padding-bottom: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  display:flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.form {
+  padding: 30px;
+  text-align: center;
+}
+
+.form input {
+  padding: 10px;
+  margin: 10px;
+  min-width: 60%;
+}
+
+a {
+  color: rgb(192, 160, 160);
+}
+
+.purs-logo {
+  display:flex;
+  background: url("./static/purs-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  mix-blend-mode: lighten;
+  min-width: 200px;
+  min-height: 200px;
+
+  -webkit-animation: PURS-LOGO-PULSE 5s infinite; /* Safari 4+ */
+  -moz-animation:    PURS-LOGO-PULSE 5s infinite; /* Fx 5+ */
+  -o-animation:      PURS-LOGO-PULSE 5s infinite; /* Opera 12+ */
+  animation:         PURS-LOGO-PULSE 5s infinite; /* IE 10+, Fx 29+ */
+}
+
+
+@-webkit-keyframes PURS-LOGO-PULSE {
+  0%   { opacity: 0.5; transform: rotate(0deg); }
+  50%  { opacity: 1; ; transform: rotate(180deg); }
+  100% { opacity: 0.5; transform: rotate(360deg); }
+}
+@-moz-keyframes PURS-LOGO-PULSE {
+  0%   { opacity: 0.5; transform: rotate(0deg); }
+  50%  { opacity: 1; ; transform: rotate(180deg); }
+  100% { opacity: 0.5; transform: rotate(360deg); }
+}
+@-o-keyframes PURS-LOGO-PULSE {
+  0%   { opacity: 0.5; transform: rotate(0deg); }
+  50%  { opacity: 1; ; transform: rotate(180deg); }
+  100% { opacity: 0.5; transform: rotate(360deg); }
+}
+@keyframes PURS-LOGO-PULSE {
+  0%   { opacity: 0.5; transform: rotate(0deg); }
+  50%  { opacity: 1; ; transform: rotate(180deg); }
+  100% { opacity: 0.5; transform: rotate(360deg); }
+}
