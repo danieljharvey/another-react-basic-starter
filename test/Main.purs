@@ -1,13 +1,12 @@
 module Test.Main where
 
 import Prelude
-import Data.Maybe
+import Data.Maybe (Maybe(..))
 import Effect (Effect)
-import Effect.Console (log)
 import Test.Unit (suite, test)
 import Test.Unit.Main (runTest)
 import Test.Unit.Assert as Assert
-import ApiCall
+import ApiCall (GithubUser, decodeUser)
 
 main :: Effect Unit
 main = runTest do
@@ -37,7 +36,7 @@ expected =
   , "type": "User"
   , site_admin: false
   , name: "Jesse Zhang"
-  , company: "Pivotal"
+  , company: Just "Pivotal"
   , blog: "cloudfoundry.org"
   , location: "San Francisco"
   , email: Nothing
