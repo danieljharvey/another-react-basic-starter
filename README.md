@@ -8,11 +8,21 @@
 
 ### Aims
 
-This is a basic starter for Purescript React Basic that intends to have just enough features to tinker with and demonstrate that React Basic with Purescript is a pretty OK way to make web apps.
+This is a fairly basic starter for Purescript React Basic with (hopefully) enough features to tinker with and demonstrate that React Basic with Purescript is a pretty OK way to make web apps.
+
+This repository is not an example of idiomatic Purescript development as I would not consider myself experienced enough to really know what that is, however hopefully it should be enough to get an interested beginner on their feet and making/breaking things.
+
+### What is Purescript?
+
+Purescript is a Haskell-esq pure functional language that compiles to Javascript.
+
+### What is React Basic?
+
+React Basic is a set of bindings to React created by [Lumi](https://github.com/lumihq). It contains a number of additional features, most interestingly a reducer-esq way of handling component state ala [ReasonReact](https://reasonml.github.io/reason-react/). For more details see the [repo](https://github.com/lumihq/purescript-react-basic) or the [documentation](https://pursuit.purescript.org/packages/purescript-react-basic/6.2.0/docs/React.Basic).
+
+### What else in in here?
 
 As well as the `react-basic` package it uses `affjax` for fetching content, `simple-json` for decoding json data, and `test-unit` for unit tests. You can bin all this other stuff if you like, it is merely there because it is what I prefer.
-
-I would not take this repository as an example of idiomatic Purescript development (I would not consider myself experienced enough to really know what that is), however hopefully it should be enough to get an interested beginner on their feet and making/breaking things.
 
 ### Getting Started
 
@@ -120,4 +130,4 @@ yarn purs:build
 
 This is a fork of [spacchetti-react-basic-starter](https://github.com/justinwoo/spacchetti-react-basic-starter), which is in turn a fork of the original [LumiHQ/React-Basic-Starter](https://github.com/lumihq/react-basic-starter).
 
-It removes the Nix stuff (as it's great, but a little overwhelming for a beginner) and added a more fully featured sample app to demonstrate that indeed, making (semi) nice things is possible with this setup.
+It removes the Nix and Spacchetti stuff (not because that stuff is not great, but I was concerned it may be too many new concepts at once for a beginner) and added a more fully featured sample app to demonstrate that indeed, making (semi) nice things is possible with this setup.
