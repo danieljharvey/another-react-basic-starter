@@ -1,6 +1,6 @@
 # Another React Basic Starter
 
-[![Build Status](https://travis-ci.org/danieljharvey/spacchetti-react-basic-starter.svg?branch=master)](https://travis-ci.org/danieljharvey/spacchetti-react-basic-starter)
+[![Build Status](https://travis-ci.org/danieljharvey/another-react-basic-starter.svg?branch=master)](https://travis-ci.org/danieljharvey/another-react-basic-starter)
 
 ### What is it?
 
