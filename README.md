@@ -29,13 +29,13 @@ As well as the `react-basic` package it uses `affjax` for fetching content, `sim
 Download the repository:
 
 ```bash
-git clone https://https://github.com/danieljharvey/spacchetti-react-basic-starter
+git clone https://https://github.com/danieljharvey/another-react-basic-starter
 ```
 
 Change to the exciting new folder you have created.
 
 ```bash
-cd spacchetti-react-basic-starter
+cd another-react-basic-starter
 ```
 
 Install the Javascript dependencies (you can also use `npm` here, your funeral, etc)
