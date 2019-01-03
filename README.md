@@ -50,18 +50,10 @@ This will build all of the Purescript in the project (and more importantly, show
 yarn purs:build
 ```
 
-This will run the app on a Parcel server, which you can view by navigating to `localhost:1234` in your browser.
+This will run the app on a Parcel server, which you can view by navigating to `localhost:1234` in your browser. It also runs `pulp -w build` to make sure your code changes update in the browser.
 
 ```bash
 yarn start
-```
-
-Note that Parcel somewhat swallows up your errors - so if you are making changes and not seeing anything - it is good to run `yarn purs:build` to see what's up.
-
-Alternatively, you can run `pscid` in another window, which will show you errors and generally help you out as you develop.
-
-```bash
-yarn pscid
 ```
 
 There are also some basic unit tests you can run with
@@ -92,7 +84,7 @@ yarn purs:build
 
 #### Pulp
 
-`pulp` is a Purescript build tool that does a whole host of good things (and has a nice GIF of Jarvis Cocker dancing on it's github). It is used here for running the unit tests.
+`pulp` is a Purescript build tool that does a whole host of good things (and has a nice GIF of Jarvis Cocker dancing on it's github). It is used here for running the build and the unit tests.
 
 <https://github.com/purescript-contrib/pulp>
 
